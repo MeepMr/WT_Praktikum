@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jli11njKqwQtJU9Rban4ytlKWP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +30,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604384860831</updated>
       <workItem from="1604384862216" duration="600000" />
+      <workItem from="1604391989684" duration="181000" />
     </task>
     <servers />
   </component>
@@ -33,6 +38,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2491" y="444" key="Github.ShareDialog" timestamp="1604392067216">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2491" y="444" key="Github.ShareDialog/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604392067216" />
+    <state x="2307" y="252" key="Github.UntrackedFilesDialog" timestamp="1604392074418">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2307" y="252" key="Github.UntrackedFilesDialog/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604392074418" />
     <state x="2305" y="241" key="search.everywhere.popup" timestamp="1604385548826">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
