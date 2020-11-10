@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0623aef3-d924-4fef-aea4-8703701b1142" name="Default Changelist" comment="Added Übung 1" />
+    <list default="true" id="0623aef3-d924-4fef-aea4-8703701b1142" name="Default Changelist" comment="Added Übung 1">
+      <change afterPath="$PROJECT_DIR$/Praktikum_2/buchung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Praktikum_2/detailseite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Praktikum_2/raumliste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test-Img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jli11njKqwQtJU9Rban4ytlKWP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +45,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +65,7 @@
       <workItem from="1604391989684" duration="181000" />
       <workItem from="1604393668146" duration="89000" />
       <workItem from="1604396010759" duration="285000" />
+      <workItem from="1604993867047" duration="4247000" />
     </task>
     <task id="LOCAL-00001" summary="Added Übung 1">
       <created>1604393696201</created>
@@ -73,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604396255810</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Übung 3">
+      <created>1604993964782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604993964783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,9 +122,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Übung 1" />
     <MESSAGE value="Finished Übung 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Übung 1" />
+    <MESSAGE value="Added Übung 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Übung 3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2367" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604994171378">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2367" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604994171378" />
     <state x="2491" y="444" key="Github.ShareDialog" timestamp="1604392067216">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
@@ -111,13 +138,13 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2307" y="252" key="Github.UntrackedFilesDialog/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604392074418" />
-    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1604396258733">
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1604994042821">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604396258733" />
-    <state x="2305" y="241" key="search.everywhere.popup" timestamp="1604385548826">
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604994042821" />
+    <state x="2305" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1604994994940">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2305" y="241" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604385548826" />
+    <state x="2305" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1604994994940" />
   </component>
 </project>
