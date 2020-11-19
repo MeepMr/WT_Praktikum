@@ -1,0 +1,23 @@
+<form action="A1.html" method="post">
+	<fieldset>
+		<legend>Angaben:</legend>
+		<p>
+			<label for="mail">E-Mail</label>
+			<input type="E-Mail" name="mailAddr" id="mail" placeholder="example@mail.de" required>
+		</p>
+		<p>
+			<label for="theme">Themen</label>
+			<select id="theme" name="topics" size="3" multiple required>
+				<option value="geo">Geocoaching</option>
+				<option value="bouldern" selected="">Bouldern</option>
+				<option value="sport">Sport Stacking</option>
+			</select>
+		</p>
+	</fieldset>
+	<p>
+		Newsletter abonnieren? 
+		<input type="radio" name="action" value="sub" checked> abonnieren
+		<input type="radio" name="action" value="desub"> abbestellen
+	</p>
+	<input type="submit">
+</form>	
