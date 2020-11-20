@@ -18,89 +18,78 @@
             <form action="https://labs.inf.fh-dortmund.de/roomReservationService/testRoomSearch.php" method="get">
                 <p>
                     <label for="search">Suche</label>
-                    <input type="text" name="roomno" id="search" placeholder="Raumnummer" pattern="[ABC]\.[E123]\.[0-9]{2}">
+                    <input type="text" name="roomno" id="search" placeholder="Raumnummer" pattern="[ABC]\.[E123]\.[0-9]{2}" required>
                     <input type="submit" value="Finden">
                 </p>
 
             </form>
-            <table>
-                <tr>
-                    <th>
-                        <p>Raumnummer</p>
-                    </th>
-                    <th>
-                        <p>Bezeichnung des Raumes</p>
-                    </th>
-                    <th>
-                        <p>Bezeichung des Gebäudes</p>
-                    </th>
-                </tr>
-                <tr>
+            <ul>
+                <li>
                     <td>
-                        <a href="detailseite.html">A.E.00</a>
+                        <a href="detailseite.html">Raumnummer: A.E.00</a>
                     </td>
                     <td>
-                        <p>Beispielraum</p>
+                        <p>Raumbezeichnung: Beispielraum</p>
                     </td>
                     <td>
-                        <p>Beispielgebäude</p>
+                        <p>Gebäudebezeichnung: Beispielgebäude</p>
                     </td>
-                </tr>
-                <tr>
+                </li>
+                <li>
                     <td>
-                        <a href="detailseite.html">A.E.01</a>
-                    </td>
-                    <td>
-                        <p>Hörsaal</p>
+                        <a href="detailseite.html">Raumnummer: A.E.01</a>
                     </td>
                     <td>
-                        <p>EF 42</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="detailseite.html">A.1.02</a>
+                        <p>Raumbezeichnung: Hörsaal</p>
                     </td>
                     <td>
-                        <p>Übungsraum</p>
+                        <p>Gebäudebezeichnung: EF 42</p>
+                    </td>
+                </li>
+                <li>
+                    <td>
+                        <a href="detailseite.html">Raumnummer: A.1.02</a>
                     </td>
                     <td>
-                        <p>EF 42</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="detailseite.html">Hauptmensa</a>
+                        <p>Raumbezeichnung: Übungsraum</p>
                     </td>
                     <td>
-                        <p>Mensa Studierendenwerk Dortmund</p>
+                        <p>Gebäudebezeichnung: EF 42</p>
+                    </td>
+                </li>
+                <li>
+                    <td>
+                        <a href="detailseite.html">Raumnummer: Hauptmensa</a>
                     </td>
                     <td>
-                        <p>Vogelpothsweg xx</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="detailseite.html">A.2.01</a>
+                        <p>Raumbezeichnung: Mensa Studierendenwerk Dortmund</p>
                     </td>
                     <td>
-                        <p>Labor</p>
+                        <p>Gebäudebezeichnung: Vogelpothsweg xx</p>
+                    </td>
+                </li>
+                <li>
+                    <td>
+                        <a href="detailseite.html">Raumnummer: A.2.01</a>
                     </td>
                     <td>
-                        <p>EF 42</p>
+                        <p>Raumbezeichnung: Labor</p>
                     </td>
-                </tr>
-            </table>
+                    <td>
+                        <p>GEbäudebezeichnung: EF 42</p>
+                    </td>
+                </li>
+            </ul>
         </main>
         <aside>
             <section title="Nachrichten">
             <h2>Aktuelle Meldungen</h2>
                 <ul>
                     <li>
-                        <article><h5>31.12.2020:</h5> Unter Unständen dürfen die FH-Gbäude in einem Jahr wieder betreten werden.</article>
+                        <article><h5>31.12.2020:</h5> Unter Umständen dürfen die FH-Gbäude in einem Jahr wieder betreten werden.</article>
                     </li>
                     <li>
-                        <article><h5>12.11.2020:</h5> Erster Prototy der Web-Seite fertig gestellt</article>
+                        <article><h5>12.11.2020:</h5> Erster Prototyp der Web-Seite fertig gestellt</article>
                     </li>
                 </ul>
             </section>
