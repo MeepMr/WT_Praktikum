@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Detailseite</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style/style.css" type="text/css">
+        <link rel="stylesheet" href="Style/flexbox.css" type="text/css">
+        <link rel="stylesheet" href="Style/grid.css" type="text/css">
+    </head>
+    <body>
+        <div id="html-body_box">
+            <header>
+                <div id="headBox">
+                    <h1>Raumverwaltung FH-Dortmund</h1>
+                    <a href="dashboard.html">
+                        <img src="https://www.ilias.fh-dortmund.de/ilias/Customizing/global/skin/Skin_ILIAS-5.4_FHDortmund/images/HeaderIcon.svg" width="100" height="100" alt="Hier ist normalerweise ein Foto zu sehen">
+                    </a>
+                </div>
+                <div id="navBox">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="raumliste.html">Raumliste</a>
+                            </li>
+                            <li>
+                                <a href="detailseite.html">Raumdetails</a>
+                            </li>
+                            <li>
+                                <a href="buchung.html">Buchungsdetails</a>
+                            </li>
+                            <li>
+                                <a href="raumbuchung.html">Raumbuchung</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="bodyBox">
+            <main>
+                <div id="mainBox">
+                    <figure>
+                        <img  id="detailBild" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ws6ykaY-QuilWN4j23neiAHaE7%26pid%3DApi&f=1"
+                              width="200" height="133" alt="Abbildung von Hörsaal A.E.01">
+                        <figcaption>Abbildung: Raum A.E.01</figcaption>
+                    </figure>
+                    <section title="Informationen" class="LeftBottomLine">
+                        <h3>Informationen zum Raum</h3>
+                        <ul>
+                            <li>
+                                <p> Raumnummer: A.E.01</p>
+                            </li>
+                            <li>
+                                <p>Bezeichnung: Hörsaal</p>
+                            </li>
+                            <li>
+                                <p>Gebäude: EF 42</p>
+                            </li>
+                            <li>
+                                <p>Kapazität: 350 Sitzplätze</p>
+                            </li>
+                            <li>
+                                <p>Ausstattungsmerkmale:</p>
+                                <ul>
+                                    <li>
+                                        <p>3 Beamer</p>
+                                    </li>
+                                    <li>
+                                        <p>Whiteboard</p>
+                                    </li>
+                                    <li>
+                                        <p>Tafel</p>
+                                    </li>
+                                    <li>
+                                        <p>Pult</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section title="Buchungen" class="LeftBottomLine">
+                        <h3>Buchungen zum Raum</h3>
+                        <table id="raumliste">
+                            <thead>
+                                <tr>
+                                    <th>Datum</th>
+                                    <th>Startuhrzeit</th>
+                                    <th>Enduhrzeit</th>
+                                    <th>Bezeichnung</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>12.10.2020</p>
+                                    </td>
+                                    <td>
+                                        <p>12:00</p>
+                                    </td>
+                                    <td>
+                                        <p>13:00</p>
+                                    </td>
+                                    <td>
+                                        <a href="buchung.html">Vorlesung</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>12.10.2020</p>
+                                    </td>
+                                    <td>
+                                        <p>14:00</p>
+                                    </td>
+                                    <td>
+                                        <p>19:00</p>
+                                    </td>
+                                    <td>
+                                        <a href="buchung.html">Übung</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>15.10.2020</p>
+                                    </td>
+                                    <td>
+                                        <p>08:00</p>
+                                    </td>
+                                    <td>
+                                        <p>13:00</p>
+                                    </td>
+                                    <td>
+                                        <a href="buchung.html">Praktikum</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </main>
+            <aside>
+                <div id="newsBox">
+                    <section title="Nachrichten">
+                        <h2>Aktuelle Meldungen</h2>
+                        <ul>
+                            <li>
+                                <article><h5>31.12.2020:</h5> Unter Umständen dürfen die FH-Gbäude in einem Jahr wieder betreten werden.</article>
+                            </li>
+                            <li>
+                                <article><h5>12.11.2020:</h5> Erster Prototyp der Web-Seite fertig gestellt</article>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </aside>
+            </div>
+            <footer>
+                <p>© CSS Skeletor 💀</p>
+            </footer>
+        </div>
+    </body>
+</html>
