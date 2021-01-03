@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Raum-App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/grid.css" />
+  </head>
+
+  <body id="room_body">
+    <div id="room_head">
+      <a href="../index.html"
+        ><img
+          src="../images/room/Logo-Raumverwaltung-Small.png"
+          id="picture_logo"
+          alt="logo"
+      /></a>
+      <header><h1>Raum: Holder</h1></header>
+    </div>
+    <nav id="room_nav">
+      <ul class="nav_bar">
+        <li><a href="roomList.html">Raumliste</a></li>
+        <li><a href="room.html">Raumdetails</a></li>
+        <li><a href="../order/order.html">Buchungsdetails</a></li>
+        <li><a href="../order/newRoomOrder.html">Neue Raumbuchung</a></li>
+      </ul>
+    </nav>
+    <main id="room_main">
+      <figure id="room_picture">
+        <img
+          id="room_picture_image"
+          src="../images/room/hoersaal.png"
+          alt="Bild vom Raum"
+        />
+        <figcaption>Abbildung: Raum holder</figcaption>
+      </figure>
+      <section
+        title="Rauminforamtionen"
+        class="line_separated"
+        id="room_information"
+      >
+        <h2>Rauminformationen</h2>
+        <ul>
+          <li>Nummer: holder</li>
+          <li>Bezeichnung: holder</li>
+          <li>Gebäude: holder</li>
+          <li>Kapazität: holder</li>
+          <li>
+            Austattungsmerkmale
+            <ul>
+              <li>holder</li>
+              <li>holder</li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae mollitia cumque, dolorem, saepe consequatur quis,
+                fugiat sed laboriosam incidunt iure aut facere perspiciatis in
+                tempore blanditiis ad soluta molestiae? Voluptatum!
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section title="Buchungen" class="line_separated" id="room_orders">
+        <h2>Buchungen</h2>
+        <table class="room_order_table">
+          <thead>
+            <tr class="room_order_table_head">
+              <th>Datum</th>
+              <th>Startuhrzeit</th>
+              <th>Enduhrzeit</th>
+              <th>Bezeichnung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>holder</td>
+              <td>holder</td>
+              <td>holder</td>
+              <td><a href="holder">holder</a></td>
+            </tr>
+            <tr>
+              <td>holder</td>
+              <td>holder</td>
+              <td>holder</td>
+              <td><a href="holder">holder</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <aside class="aside_class" id="room_aside">
+      <h2>Aktuelle Meldungen</h2>
+      <ul>
+        <li>12.10.2020: Meldung 1</li>
+        <li>11.10.2020: Meldung 2</li>
+      </ul>
+    </aside>
+
+    <footer id="room_footer">
+      <small>&copy; Clemens Kurzeya</small>
+    </footer>
+  </body>
+</html>

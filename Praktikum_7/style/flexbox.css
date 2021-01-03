@@ -1,0 +1,48 @@
+.main_flexbox
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_flexbox
+{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.aside_class
+{
+    flex: 1 1 auto;
+}
+
+.maincontent_flexbox
+{
+    flex: 4 0 60%;
+    min-width: 550px;
+}
+
+.header_box
+{
+    display: flex;
+}
+
+#picture_logo
+{
+    max-width: 75px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px)
+{
+    .middle_flexbox
+    {
+        flex-wrap: wrap;
+    }
+
+    .aside_class
+    {
+        margin: 0px;
+        margin-top: 5px;
+    }
+}
