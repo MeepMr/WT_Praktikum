@@ -1,0 +1,43 @@
+.kachel {
+
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: cadetblue;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.kachel h2 {
+
+    color: white;
+    text-align: center;
+}
+
+.kachel:hover {
+
+    width: 210px;
+    height: 210px;
+}
+
+#bodyBox a {
+
+    text-decoration: none;
+}
+
+#html-body_box {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#bodyBox {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

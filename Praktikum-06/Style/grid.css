@@ -1,0 +1,49 @@
+#html-body_box {
+
+    display: grid;
+    grid-template-areas: "kopf" "nav" "body";
+}
+
+#headBox {
+
+    grid-area: kopf;
+}
+
+#navBox {
+
+    grid-area: nav;
+}
+
+#bodyBox {
+
+    display: grid;
+    grid-area: body;
+    grid-template-areas: "main news";
+}
+
+#mainBox {
+
+    display: grid;
+    grid-area: main;
+    grid-template-areas: "info-box detailBild" "buchungen detailBild";
+}
+
+#newsBox {
+
+    grid-area: news;
+}
+
+#detailBild {
+
+    grid-area: detailBild;
+}
+
+section[title="Informationen"] {
+
+    grid-area: info-box;
+}
+
+section[title="Buchungen"]{
+
+    grid-area: buchungen;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Raumbuchung</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/grid.css" />
+  </head>
+  <body id="newOrder_body">
+    <div id="newOrder_head">
+      <a href="../index.html"
+        ><img
+          src="../images/room/Logo-Raumverwaltung-Small.png"
+          id="picture_logo"
+          alt="logo"
+      /></a>
+      <header>
+        <h1>Neue Raumbuchung</h1>
+      </header>
+    </div>
+    <nav id="newOrder_nav">
+      <ul class="nav_bar">
+        <li><a href="../room/roomList.html">Raumliste</a></li>
+        <li><a href="../room/room.html">Raumdetails</a></li>
+        <li><a href="order.html">Buchungsdetails</a></li>
+        <li><a href="newRoomOrder.html">Neue Raumbuchung</a></li>
+      </ul>
+    </nav>
+    <main id="newOrder_main">
+      <form
+        action="https://labs.inf.fh-dortmund.de/roomReservationService/testCreateReservation.php"
+        method="POST"
+      >
+        <fieldset>
+          <legend>Raumbuchung</legend>
+
+          <label
+            ><span class="label_required">Raumnummer</span>:
+            <input
+              name="roomno"
+              type="text"
+              placeholder="z.B. A.E.01"
+              autofocus
+              required
+              pattern="[A-Z]\.[E1-3]\.[0-9]{2}"
+          /></label>
+          <br />
+
+          <label
+            ><span class="label_required">Bezeichnung</span>:
+            <input
+              name="restitle"
+              type="text"
+              maxlength="20"
+              placeholder="z.B. Web-Technologien"
+              required
+            />
+          </label>
+          <br />
+          <fieldset>
+            <legend>Zeit</legend>
+            <label
+              ><span class="label_required">Datum</span>:
+              <input name="resdate" type="date" required
+            /></label>
+            <br />
+
+            Zeitraum,
+            <label
+              ><span class="label_required">Start</span>:
+              <input
+                name="resstart"
+                type="time"
+                min="08:00"
+                max="21:00"
+                required
+            /></label>
+            <label
+              ><span class="label_required">Ende</span>:
+              <input name="resend" type="time" max="22:00" required
+            /></label>
+            <br />
+          </fieldset>
+          <fieldset>
+            <legend>Informationen</legend>
+            <label
+              >Gebucht von:
+              <select name="resperson">
+                <option value="holder">holder</option>
+              </select>
+            </label>
+            <br />
+
+            <label
+              >Teilnehmerzahl: <input name="resparticipants" type="number"
+            /></label>
+            <br />
+
+            <label
+              >Beschreibung:
+              <textarea
+                name="resdescription"
+                cols="50"
+                rows="4"
+                maxlength="500"
+              ></textarea>
+            </label>
+            <br />
+            <br />
+          </fieldset>
+
+          <button type="submit">Buchung bestätigen</button>
+        </fieldset>
+      </form>
+    </main>
+    <aside class="aside_class" id="newOrder_aside">
+      <h2>Aktuelle Meldungen</h2>
+      <ul>
+        <li>12.10.2020: Meldung 1</li>
+        <li>11.10.2020: Meldung 2</li>
+      </ul>
+    </aside>
+    <footer id="newOrder_footer">
+      <small>&copy; Clemens Kurzeya</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.dash_quad
+{
+    background-color: rgb(230, 239, 255);
+    width: 350px;
+    height: 350px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dash_main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dash_header
+{
+    display: flex;
+}
+
+#picture_logo
+{
+    max-width: 75px;
+    max-height: 75px;
+}
+
+a
+{
+    color: rgb(104, 159, 253);
+}
+
+a:hover
+{
+    color: rgb(77, 142, 254);
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px)
+{
+    .dash_quad
+    {
+        width: 200px;
+        height: 200px;
+        font-size: large;
+    }
+
+    h1
+    {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .dash_quad
+    {
+        width: 120px;
+        height: 120px;
+        font-size: smaller;
+    }
+
+    .dash_header
+    {
+        display: none;
+    } 
+}
