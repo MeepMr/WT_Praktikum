@@ -41,13 +41,6 @@ class Order {
     }
 }
 
-function getViewportWidth()
-{
-    return window.innerWidth || document.documentElement.clientWidth;
-}
-
-console.log(`Die Viewportbreite beträgt: ${getViewportWidth()} Pixel.`);
-
 //RaumTest
 
 let rTest1 = new Room("A.E.01", "Test1", "t", 100, ["Beamer", "TestTest"]);
@@ -121,3 +114,5 @@ function createTd(sContent) {
     td.textContent = sContent;
     return td;
 }
+
+module.exports = Room;

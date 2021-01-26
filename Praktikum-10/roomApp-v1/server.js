@@ -1,3 +1,40 @@
+class Room {
+
+    constructor(sNummer, sBezeichnung, sGebaude, iKapazitat, arrAusstattung) {
+
+        this.sNummer = sNummer;
+        this.sBezeichnung = sBezeichnung;
+        this.sGebaude = sGebaude;
+        this.iKapatitat = iKapazitat;
+        this.arrAusstattung = arrAusstattung;
+        this.arrBuchungen = [];
+        return this;
+    }
+
+    /*addOrder(ordBuchung) {
+
+        this.arrBuchungen.push(ordBuchung);
+        this.arrBuchungen.sort(this.sortByStartTime);
+    }
+
+
+    sortByStartTime = function(ord1, ord2) {
+
+        if(ord1.datStart === ord2.datStart) { return 0; }
+        else if( ord1.datStart < ord2.datStart) { return -1; }
+        else {return 1;}
+    }*/
+}
+
+let rList = require("./public/js/roomList");
+
+//Fake-Datenbank
+let arrRoom = [];
+arrRoom.push(new Room("A.E.01", "Test1", "t", 100, ["Beamer", "TestTest"]));
+arrRoom.push(new Room("A.E.02", "Test2", "t", 100, ["Beamer"]));
+
+
+// Server
 let http = require("http");
 let fs = require("fs");
 
@@ -13,14 +50,13 @@ http.createServer(function (request, response) {
             writeHttp(response, './public/index.html');
         } else if(sUrl === '/roomList.html') {
 
-            writeHttp(response, './roomList.html');
+            writeRoomList(response);
         } else{
 
-            writeHttp(response, `.${sUrl}`);
+            writeHttp(response, `./public/${sUrl}`);
         }
     }
-}).listen(8020, "127.0.0.1");
-
+}).listen(8020, "localhost");
 
 function writeHttp(response, path) {
 
@@ -41,3 +77,12 @@ function writeHttp(response, path) {
         }
     }
 }
+
+//Fill raumListe
+function writeRoomList(response) {
+
+    response.writeHead(200);
+    response.write(rList(arrRoom));
+    response.end();
+}
+
